@@ -1,0 +1,9 @@
+# Folders
+
+build/
+node_modules/
+.git/
+
+# Files
+
+*.log

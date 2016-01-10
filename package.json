@@ -1,0 +1,18 @@
+{
+  "name": "winapi_node",
+  "version": "0.0.1",
+  "description": "Wrapper for the Windows.h functions (WINAPI)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "WINAPI"
+  ],
+  "author": "Philipp Tusch <zokker13@posteo.de>",
+  "license": "ISC",
+  "dependencies": {
+    "bindings": "^1.2.1",
+    "nan": "^2.2.0"
+  }
+}
