@@ -1,8 +1,18 @@
 {
   "targets": [
     {
-      "target_name": "findwindow",
-      "sources": [ "user32.lib/find_window/findwindow.cc" ],
+      "target_name": "FindWindow",
+      "sources": [
+        "user32/findwindow/findwindow.cpp"
+      ],
+      "include_dirs": [
+        "<!(node -e \"require('nan')\")"
+      ]
+    }, {
+      "target_name": "GetAsyncKeyState",
+      "sources": [
+        "user32/getasynckeystate/getasynckeystate.cpp"
+      ],
       "include_dirs": [
         "<!(node -e \"require('nan')\")"
       ]
