@@ -16,6 +16,14 @@
       "include_dirs": [
         "<!(node -e \"require('nan')\")"
       ]
+    }, {
+      "target_name": "SetWindowText",
+      "sources": [
+        "user32/setwindowtext/setwindowtext.cpp"
+      ],
+      "include_dirs": [
+        "<!(node -e \"require('nan')\")"
+      ]
     }
   ]
 }

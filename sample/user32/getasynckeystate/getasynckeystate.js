@@ -1,4 +1,4 @@
-var winApi = require(__dirname + '/../');
+var winApi = require(__dirname + '/../../../');
 var handle = winApi.User32.FindWindow(null, "Rechner");
 
 var keyA = 0x41;    //The key A
